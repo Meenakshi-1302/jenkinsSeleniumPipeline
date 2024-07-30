@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.sm.GroceryTesting.GroceryTestCaseOrderDeleteTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 22.70 s <<< FAILURE! -- in com.sm.GroceryTesting.GroceryTestCaseOrderDeleteTest
+com.sm.GroceryTesting.GroceryTestCaseOrderDeleteTest.testForOrderDelete -- Time elapsed: 22.69 s <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (1194, 298)
+  (Session info: chrome=126.0.6478.185)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4f75c7407cb501f0990b60d3e886a1a, clickElement {id=f.D2C7640D3F9C20BB6F9700B1E0DC0D3C.d.8A6C2EE19A0CC5A245CFB55F9BA96704.e.4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\MEENAK~1.ANA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65062}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65062/devtoo..., se:cdpVersion: 126.0.6478.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d4f75c7407cb501f0990b60d3e886a1a)] -> name: delete-order]
+Session ID: d4f75c7407cb501f0990b60d3e886a1a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.sm.GroceryTesting.GroceryTestCaseOrderDeleteTest.testForOrderDelete(GroceryTestCaseOrderDeleteTest.java:17)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
